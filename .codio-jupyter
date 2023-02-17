@@ -1,0 +1,19 @@
+codio:
+  grader : true
+nbgrader:    
+    LockCells.lock_all_cells : true
+    LockCells.lock_grade_cells : true
+    LockCells.lock_readonly_cells : true
+    LockCells.lock_solution_cells : true
+    ExecutePreprocessor.interrupt_on_timeout : true
+    ExecutePreprocessor.timeout: 20
+    ClearSolutions.code_stub:
+        R: |
+            # your R code here
+            # end of R code
+        python: |
+            # your python code here
+            # end of python code
+        ruby: |
+            # your ruby code here            
+            # end of ruby code
