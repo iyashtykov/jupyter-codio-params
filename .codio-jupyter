@@ -6,7 +6,7 @@ nbgrader:
     LockCells.lock_readonly_cells : true
     LockCells.lock_solution_cells : true
     ExecutePreprocessor.interrupt_on_timeout : true
-    ExecutePreprocessor.timeout: 20
+    ExecutePreprocessor.timeout: 30
     ClearSolutions.code_stub:
         R: |
             # your R code here
